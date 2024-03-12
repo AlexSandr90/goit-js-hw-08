@@ -14,14 +14,13 @@ body {
     max-width: 1128px;
     width: 100%;
     gap: 24px;
-    margin: 24px auto;
 }
 
 .gallery-item {
     cursor: pointer;
 }
 
-.gallery-img {
+.gallery-image {
     display: block;
     width: 360px;
     height: 200px;
