@@ -22,11 +22,11 @@ const generatedLayout = images
 galleryContainer.insertAdjacentHTML('beforeend', generatedLayout);
 
 const imgPopup = (imgUrl) => {
-  const popup = basicLightbox.create(`<img src='${imgUrl}' />`);
+  const popup = basicLightbox.create(
+    `<img src='${imgUrl}' width="1112" height="640" />`
+  );
 
-  popup.show({
-    className: 'img-popup',
-  });
+  popup.show();
 };
 
 galleryContainer.addEventListener('click', (event) => {
